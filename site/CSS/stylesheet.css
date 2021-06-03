@@ -1,0 +1,128 @@
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+
+.topnav .search-container {
+  float: left;
+  width: 105%;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  margin-left: 1%;
+  font-size: 21px;
+  border: none;
+  width: 80%;
+}
+.topnav .search-container .fa-search{
+    margin-left: 2%;
+   /* margin-right: 5%;*/
+    color: white;
+    font-size: 2em;
+    width: 5%;
+}
+
+.topnav .search-container button {
+  float: left;
+  padding: 6px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  background: #ddd;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ddd;
+}
+
+/*@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }*/
+.topnav input[type=text], .topnav .search-container button {
+    display: inline;
+    text-align: left;
+    padding: 14px;
+  }
+
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+    }
+  }
+
+.middle .image{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+ .action-button {
+  overflow: hidden;
+  width: 100%;
+  background-color: black;
+}
+
+.action-button .fa-pp:before{
+  content:'\f04b';
+}
+.action-button .active .fa-pp:before{
+  content:'\f04c';
+}
+
+.action-button .progress{
+  height:10px;
+  margin: 0 10px 0 10px;
+  position:relative;
+  background:#262626;
+  border-radius: 50px;
+  width: 32%;
+  display: inline-block;
+}
+
+.action-button .progress .bar{
+  width:inherit;
+  display:inline;
+  height:inherit;
+  background:#bc3958;
+  box-shadow:0 0 5px 0 #bc3958;
+}
+.action-button .play-current-time{
+  position: relative;
+  margin-left: 3%;
+  color: white;
+}
+
+.action-button .play-total-time{
+  position: relative;
+  margin-right: 3%;
+  color: white;
+}
+
+.action-button a{
+  width:40px;
+  height:40px;
+  font-size:1.5em;
+  margin-top: 20px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 20px;
+  /*border:2px solid;*/
+  line-height:40px;
+  border-radius:50%;
+  text-align:center;
+  display:inline-block;
+  position: relative;
+  color: white;
+}
+.action-button a:hover,
+.action-button a.active{
+  color:#ccc;
+}
+.action-button a .fa{
+  font-size:inherit;
+}
